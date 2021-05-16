@@ -1,0 +1,15 @@
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\bin\Debug\APP2.exe.config
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\bin\Debug\APP2.exe
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\bin\Debug\APP2.pdb
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.csprojAssemblyReference.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\MainWindow.g.cs
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\App.g.cs
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2_MarkupCompile.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2_MarkupCompile.lref
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\MainWindow.baml
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.g.resources
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.Properties.Resources.resources
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.csproj.GenerateResource.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.exe
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\APP2\obj\Debug\APP2.pdb

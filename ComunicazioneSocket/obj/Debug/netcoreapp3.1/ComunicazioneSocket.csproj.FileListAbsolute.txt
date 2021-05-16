@@ -17,3 +17,22 @@ C:\Users\asus f556uj\source\repos\ComunicazioneSocket\ComunicazioneSocket\obj\De
 C:\Users\asus f556uj\source\repos\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.dll
 C:\Users\asus f556uj\source\repos\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.pdb
 C:\Users\asus f556uj\source\repos\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.genruntimeconfig.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.exe
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.deps.json
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.runtimeconfig.json
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.runtimeconfig.dev.json
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.dll
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\bin\Debug\netcoreapp3.1\ComunicazioneSocket.pdb
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.csprojAssemblyReference.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket_MarkupCompile.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket_MarkupCompile.lref
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.g.resources
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.AssemblyInfoInputs.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.AssemblyInfo.cs
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.dll
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.pdb
+C:\Users\Marian\Documents\GitHub\ComunicazioneSocket\ComunicazioneSocket\obj\Debug\netcoreapp3.1\ComunicazioneSocket.genruntimeconfig.cache

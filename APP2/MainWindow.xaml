@@ -1,0 +1,31 @@
+﻿<Window x:Class="APP2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:APP2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="526.056" Width="889.638">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="1200px-Taka_Shiba.jpg"/>
+        </Grid.Background>
+        <TextBox x:Name="txtMsg" HorizontalAlignment="Left" Height="102" Margin="10,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <Button x:Name="btnInvia" Content="Invia" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Height="50" Width="240" Click="btnInvia_Click"/>
+        <Label x:Name="lblRicezione" Content="" HorizontalAlignment="Left" Height="207" Margin="400,202,0,0" VerticalAlignment="Top" Width="390" Background="White">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="txtIpAdd" HorizontalAlignment="Left" Height="30" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="txtDestPort" HorizontalAlignment="Left" Height="30" Margin="554,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+        <Label Content="Comunicazioni :" Margin="10,202,542,169" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="691,10,0,0" Text="Destination Port :" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Destination IP Address :" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+        <Button Content="Imposta Porta" Margin="554,61,0,379" Click="Button_Click" HorizontalAlignment="Left" Width="236"/>
+
+    </Grid>
+</Window>

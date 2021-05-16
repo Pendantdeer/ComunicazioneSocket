@@ -28,14 +28,17 @@ namespace ComunicazioneSocket
         {
             InitializeComponent();
 
-            IPEndPoint localendpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 56000);
+            IPEndPoint localendpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"),56000);  //Porta di ricevimento
 
-            Thread t1 = new Thread(new ParameterizedThreadStart(SocketReceive));
+            Thread t1 = new Thread(new ParameterizedThreadStart(SocketReceive)); // inizializzazione thread
 
             t1.Start(localendpoint);
+            lblSip.Content ="Your IP is : "+Dns.GetHostByName(Dns.GetHostName()).AddressList[3].ToString(); // Visualizzazione su label del proprio inditizzo IP
+            btnInvia.IsEnabled = false; // disattivazione bottone fino all'inserimento della porta
 
 
         }
+        Int32 Intero;
 
         public async void SocketReceive (object sourceEndPoint)
         {
@@ -45,8 +48,8 @@ namespace ComunicazioneSocket
 
             t.Bind(sourceEP);
 
-            Byte[] byteRicevuti = new byte[256];
-            string message = "";
+            Byte[] byteRicevuti = new byte[256];//inizializazione
+            string message = "";// inizializzazione messaggio come vuoto 
 
             int bytes = 0;
 
@@ -62,7 +65,7 @@ namespace ComunicazioneSocket
 
                         this.Dispatcher.BeginInvoke(new Action(() =>
                         {
-                            lblRicezione.Content = message;
+                            lblRicezione.Content = message;     //Inserimento nella lbl del messaggio ricevuto
                         }));
                     }
 
@@ -74,16 +77,40 @@ namespace ComunicazioneSocket
 
         private void btnInvia_Click(object sender, RoutedEventArgs e)
         {
-            IPAddress ipDest = IPAddress.Parse(txtIpAdd.Text);
-            int portDest = int.Parse(txtDestPort.Text);
+            //Try Catch
+            try
+            {
+                IPAddress ipDest = IPAddress.Parse(txtIpAdd.Text);//IP destinazione
+                int portDest = Intero;                            //Porta di destinazione
 
-            IPEndPoint remoteEndPoint = new IPEndPoint(ipDest, portDest);
+                IPEndPoint remoteEndPoint = new IPEndPoint(ipDest, portDest);
 
-            Socket s = new Socket(ipDest.AddressFamily, SocketType.Dgram, ProtocolType.Udp);
+                Socket s = new Socket(ipDest.AddressFamily, SocketType.Dgram, ProtocolType.Udp);    //gestione socket
 
-            Byte[] byteInviati = Encoding.ASCII.GetBytes(txtMsg.Text);
+                Byte[] byteInviati = Encoding.ASCII.GetBytes(txtMsg.Text);
 
-            s.SendTo(byteInviati, remoteEndPoint);
+                s.SendTo(byteInviati, remoteEndPoint);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Errore", ex.Message, MessageBoxButton.OK,MessageBoxImage.Error) ; // Message box per mostrare le exeption incontrate
+            }
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+               Intero = Int32.Parse(txtDestPort.Text);
+                btnInvia.IsEnabled = true; //attivazione bottone btnInvia
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Errore con la porta inserita", ex.Message, MessageBoxButton.OK, MessageBoxImage.Error); // Message box per mostrare le exeption incontrate
+            }
+            
         }
     }
 }
